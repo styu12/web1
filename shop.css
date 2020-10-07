@@ -1,0 +1,52 @@
+.bar {
+    display: grid;
+    grid-template: 20px / 100%;
+    background-color: gray;
+    opacity: 0.8;
+}
+
+.bar h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(95, 94, 94);
+    letter-spacing: 2px;
+}
+
+.bar ul {
+    position: relative;
+    top: 3px;
+    right: 30px;
+    font-weight: bold;
+}
+
+.bar .right {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+.bar li {
+   display: inline;
+   padding-right: 1em;
+   margin: 1em 0;
+}
+
+.bar span {
+    color: rgb(235, 81, 25);
+}
+
+.top {
+    margin-top: 80px;
+    display: grid;
+    grid-template: repeat(3, 600px 20px) / repeat(2, 470px);
+    grid-gap: 100px 50px;
+    grid-auto-flow: dense;
+    justify-content: center;
+    align-content: start;
+    justify-items: center;
+}
+
+.top img {
+    width: 450px;
+    height: 550px;
+    float: left;
+}
